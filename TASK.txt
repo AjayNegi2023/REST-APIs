@@ -1,0 +1,21 @@
+REST API - Node.js 
+
+GET - 
+    /users - return user in Html format
+    /api/users - Return all users 
+    /api/users/1 - get user with id 1
+
+    Dynamic path Parameter 
+            GET /api/users/:id
+                /:id -> Variable | Dynamic
+
+
+
+POST 
+    /api/users - create user
+
+PATCH:
+    /api/users - Edit user with id 1
+
+DELETE:
+    /api/users1 - Delete user with id 1
